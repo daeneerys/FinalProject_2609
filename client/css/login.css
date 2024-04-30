@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin-top: 150px;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-family: Tahoma;
+  font-size: 16px;
+  background: url(../assets/Frassati.jpg) no-repeat 50% 5% fixed;
+}
+.login_main {
+  background-color: #f8f0c6;
+  height: 425px;
+  width: 800px !important;
+  margin: auto !important;
+  margin-top: 125px !important;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 30px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 30px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 30px 2px rgba(0, 0, 0, 0.75);
+}
+.login_first {
+  text-align: center;
+  margin: auto;
+}
+.login_first img {
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+}
+.login_first p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'Inter';
+}
+.login_second {
+  text-align: center;
+}
+.login_second p {
+  float: left;
+  margin-left: 20px;
+}
+.login_second_child {
+  margin-top: 100px;
+}
+.login_second button {
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 20px;
+  height: 2.5em;
+  border-style: solid;
+  background-color: #fff;
+  border-color: #510400;
+}
+.loginField {
+  width: 90%;
+  top: 646px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: -20px;
+  border-style: solid;
+  height: 3em;
+  font-family: 'Montserrat';
+}
+.login_second p {
+  font-weight: 550;
+  font-family: 'Montserrat';
+}
+input {
+  margin: 10px 0 0 0;
+  min-height: 2em;
+  padding-left: 10px;
+  border-color: #510400;
+}
+.noAcc{
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 5px;
+
+}

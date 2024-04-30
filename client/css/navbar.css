@@ -1,0 +1,111 @@
+
+.container-fluid {
+    --bs-gutter-x: 0 !important;
+    margin-left: 0px !important;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    overflow-x: hidden !important;
+
+}
+
+
+/* Upper Left Navbar*/
+.upper_left{
+    background-color: #510400;
+    width: 100% !important;
+    height: 40px;
+    margin: -17px -15px 0 -15px;    
+    overflow: hidden !important;
+}
+
+.left_content{
+    display: flex;
+    float: right !important;
+    color: #fff;
+    margin-right: 30px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.left_content p, i{
+    margin: 12px 7px 0 7px;
+    font-family: 'Montserrat';
+}
+.left_content i{
+    margin-top: 14px;
+}
+.left_content .email{
+    margin-right: 40px;
+}
+
+/* Upper Right Navbar*/
+
+.upper_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+
+
+/*Lower Navbar*/
+.cicsLogo {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.lower_container{
+    margin-top: 14px !important;
+    background-color: #F8F0C6;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin-right: -20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    width: 120%;
+    overflow: hidden;
+}
+.lower_container button{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Inter';
+    text-shadow: 0px 1px 4px rgba(0,0,0,0);
+    color: #FEC00F;
+    background-color: #000;
+    margin-right: 50px;
+    border: none;
+    width: 150px;
+}
+.lower_container button:hover{
+    background-color: #510400;
+    color: #fff;
+}
+.lower_container p{
+    margin-right: 70px;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 18px;
+    margin-top: 15px;
+}
+li{
+    margin-right: 70px;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.container_links a:hover{
+    color:#800000;
+}
+.container_links a:active{
+    color: #800000;
+}
+.container_links a{
+    color: black;
+}
