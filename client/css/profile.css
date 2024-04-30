@@ -20,7 +20,7 @@ body {
   justify-content: center;
   min-height: 40rem;
   height: auto;
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 .card {
@@ -239,8 +239,6 @@ h2 {
   ) {
     .table-header {
       display: none;
-    }
-    .table-row {
     }
     li {
       display: block;

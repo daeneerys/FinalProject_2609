@@ -289,10 +289,9 @@
 
                                     </fieldset>
                                 </div>
-                                <div class="cvFile">
-                                    <label for="cvFile">Upload your CV:
+                                <div class="cvFile"></label>
+                                    <label class="cFile" for="cvFile">Upload your CV:</label>
                                         <input type="File" name="file">
-                                    </label>
                                 </div>
                             </div>
                             <div class="modal-footer" id='poot'>

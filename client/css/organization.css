@@ -116,7 +116,63 @@ html {
 }
 
 .apply_button:hover {
-  background-color: #510400; 
-  
+  background-color: #510400;
+
   color: #f8f0c6;
+}
+#relation,
+#secretariat,
+#finance,
+#auditing,
+#communications,
+#creatives,
+#operations,
+#resource {
+  display: none;
+}
+.sub-btn {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-color: white;
+  min-width: 300px;
+  background-color: #f8f0c6;
+  border-radius: 15px;
+}
+label{
+  font-size: 17px;
+  display: inline;
+  width: 100%;
+  margin: 5px;
+}
+.pos_label, legend,.cFile{
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  margin: 5px;
+  font-family: Inter, sans-serif;
+  margin-top: 12px;
+}
+select{
+  margin: 10px;
+  width: 100%;
+  min-height: 2em;
+}
+input[type ="File"]{
+  margin: 5px;
+}
+.modal-header{
+  background-color: #510400;
+  color: white;
+
+}
+.modal-header h5{
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+input[type='radio'] {
+  accent-color: #232323;
 }
