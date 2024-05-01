@@ -78,10 +78,9 @@ try {
   $stmt->bindParam(':division',$division);
   $stmt->bindParam(':pname',$pname);
 
-  $message = "Submitted Successfully";
 
   if ($stmt->execute()) {
-    echo "<script type='text/javascript'>alert('$message');</script>";
+    header("Location: successful.php");
     exit;
   }
 } catch (PDOException $e) {

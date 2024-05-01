@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+.successful_container{
+    background-color: #f8f0c6;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 300px
+}
+.successful_container h1{
+    color: #510400;
+    margin: auto;
+    margin-top: 100px !important;
+    font-family: Montserrat;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.successful_container button{
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    margin-top: 20px;
+    background-color: #510400;
+    color: white;
+}
+.successful_container button:hover{
+    background-color: white;
+    color: #510400;
+}
+.successful_container a{
+    text-decoration: none;
+}

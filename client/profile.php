@@ -54,7 +54,7 @@ $studentid = $_SESSION['studentid'];
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="#"><i class="fa fa-book"></i></a></li>
             </ul>
-            <button class="btn draw-border">Organizations</button>
+            <button class="btn draw-border">My Organizations</button>
             <button class="btn draw-border">Edit Profile Picture</button>
         </div>
 
