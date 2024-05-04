@@ -50,10 +50,8 @@
                     <a class="nav-link" href="dashboard.php">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="applicants.php">Applicants</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="settings.php">Settings</a>
+                    <a class="nav-link" href="adlogout.php">Logout</a>
+                    
                 </li>
             </ul>
         </div>

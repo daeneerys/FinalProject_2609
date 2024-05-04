@@ -27,7 +27,8 @@ html {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden !important;
   text-align: center !important;
-  margin-top: 20px;
+  margin-top: 30px;
+  -webkit-transition: 1000ms all;
 }
 .col {
   float: left;
@@ -39,6 +40,7 @@ html {
 .card_img {
   height: 260px;
   width: auto;
+  object-fit: cover;
 }
 /*Card Title*/
 .title {
@@ -175,4 +177,16 @@ input[type ="File"]{
 }
 input[type='radio'] {
   accent-color: #232323;
+}
+
+.row:hover .col .card:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
+}
+.row:hover .card{
+  opacity: .8;
+}
+i, .facebook, .mail{
+  cursor: pointer;
 }

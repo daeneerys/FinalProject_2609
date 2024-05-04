@@ -121,6 +121,8 @@
 
             <?php endforeach; ?>
 
+
+
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -291,7 +293,7 @@
                                 </div>
                                 <div class="cvFile"></label>
                                     <label class="cFile" for="cvFile">Upload your CV:</label>
-                                        <input type="File" name="file">
+                                    <input type="File" name="file">
                                 </div>
                             </div>
                             <div class="modal-footer" id='poot'>

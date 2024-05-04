@@ -1,3 +1,41 @@
+<?php 
+    $is_invalid = false;
+
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+
+    if (isset($_POST["login"])) {
+        $conn = require __DIR__ . "/adaccounts.php";
+        $email = $_POST["email"];
+        $pass = $_POST["pass"];
+    
+        require_once "adaccounts.php";
+        $stmt = $conn->prepare("SELECT * FROM administrators_tb WHERE email = '$email'");
+    
+        $stmt->execute();
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+        if ($user) {
+    
+            if (password_verify($_POST["pass"], $user["pass"])) {
+    
+                session_regenerate_id();
+    
+                $_SESSION['user'] = $user['id'];
+                $_SESSION['email'] = $user['email'];
+
+                header("Location: dashboard.php");
+            } else {
+                echo "<div class = 'alert alert-danger'>Invalid Password</div>";
+            }
+    
+            $is_invalid = true;
+        } else {
+            echo "<div class = 'alert alert-danger'>Invalid Email</div>";
+        }
+    }
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,16 +80,16 @@
 <body>
     <div class="login-container">
         <h2 class="text-center mb-4">LOGIN</h2>
-        <form action="login.php" method="POST">
+        <form method = "post">
             <div class="form-group">
                 <label for="username">Email:</label>
-                <input type="text" class="form-control" id="username" name="username" required>
+                <input type="text" class="form-control" id="username" name="email" required>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" class="form-control" id="password" name="password" required>
+                <input type="password" class="form-control" id="password" name="pass" required>
             </div>
-            <button type="submit" class="btn btn-login">Login</button>
+            <button type="submit" class="btn btn-login" name = "login">Login</button>
         </form>
     </div>
 </body>
