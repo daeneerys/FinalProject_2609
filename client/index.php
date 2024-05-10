@@ -1,4 +1,4 @@
-<?php include_once ('header.php');
+<?php include_once('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,59 +15,109 @@
 
     <script src="index.js" defer></script>
 
-</head> 
+</head>
 
 <body>
     <!--carousel fade -->
-<div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="./assets/CICSWEEK1.JPG" class="d-block w-100" alt="...">
+    <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/CICSWEEK1.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/CICSWEEK2.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/CICSWEEK3.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/CICSWEEK4.JPG" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="./assets/CICSWEEK2.JPG" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./assets/CICSWEEK3.JPG" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./assets/CICSWEEK4.JPG" class="d-block w-100" alt="...">
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- red container -->
+    <div class="container-fluid redcontainer">
+        <!-- 4 containers -->
+        <div class="row">
+            <div class="col-md-3 mx-5 mb-3">
+                <!-- Column 1 -->
+                <br><img src="./assets/stat1.png" class="img-fluid uniform-img" alt="...">
+            </div>
+            <div class="col-md-3 mx-5 mb-3">
+                <!-- Column 2 -->
+                <br><img src="./assets/stat2.png" class="img-fluid uniform-img" alt="...">
+            </div>
+            <div class="col-md-3 mx-5 mb-3">
+                <!-- Column 3 -->
+                <br><img src="./assets/stat3.png" class="img-fluid uniform-img" alt="...">
+            </div>
+            <div class="col-md-3 mx-5 mb-3">
+                <!-- Column 4 -->
+                <br><img src="./assets/stat4.png" class="img-fluid uniform-img" alt="...">
+            </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
 
 
 
-<!-- red container -->
-<div class="container-fluid redcontainer">
-    <!-- 4 containers -->
-    <div class="row">
-        <div class="col-md-3 mx-5 mb-3">
-            <!-- Column 1 -->
-            <br><img src="./assets/stat1.png" class="img-fluid uniform-img" alt="...">
+    <!--<div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-3 mx-5 mb-3"></div>
+            <h1 class="featuredText"><br><br>Featured Organizations</h1>
+            <p class="featuredsubtext">Explore the CICS thriving community – providing students with opportunities<br> to develop leadership skills, cultivate interests, and connect with like-minded peers<br><br></p>
         </div>
-        <div class="col-md-3 mx-5 mb-3">
-            <!-- Column 2 -->
-            <br><img src="./assets/stat2.png" class="img-fluid uniform-img" alt="...">
-        </div>
-        <div class="col-md-3 mx-5 mb-3">
-            <!-- Column 3 -->
-            <br><img src="./assets/stat3.png" class="img-fluid uniform-img" alt="...">
-        </div>
-        <div class="col-md-3 mx-5 mb-3">
-            <!-- Column 4 -->
-            <br><img src="./assets/stat4.png" class="img-fluid uniform-img" alt="...">
-        </div>
+    </div> -->
+
+    <!-- Featured Organizations Pictures-->
+    <!--<div class="container-md text-center" id='featured'>
+        <div class="row">
+            <div class="col-md-4 mx-2 mb-3 img-container">
+                
+                <a href="organization.php">
+                    <div class="image-wrapper">
+                        <img class="img-fluid" src="./assets/Cnag.jpg" alt="First Featured Photo">
+                        <div class="overlay">
+                            <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mx-2 mb-3 img-container">
+                
+                <a href="organization.php">
+                    <div class="image-wrapper">
+                        <img class="img-fluid" src="./assets/Tgs.jpg" alt="Second Featured Photo">
+                        <div class="overlay">
+                            <p class="overlay-text"> UST Thomasian Gaming Society</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-2 mb-3 img-container">
+                
+                <a href="organization.php">
+                    <div class="image-wrapper">
+                        <img class="img-fluid" src="./assets/Site.jpg" alt="Third Featured Photo">
+                        <div class="overlay">
+                            <p class="overlay-text">UST Society of Information Technology Enthusiasts</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+
     </div>
-</div>
 
 
 
@@ -79,44 +129,65 @@
         </div>
     </div>
 
-    <!-- Featured Organizations Pictures-->
-    <div class="container-md text-center" id='featured'>
-    <div class="row">
-        <div class="col-md-4 mx-2 mb-3 img-container">
-            <!-- Column 1 -->
-            <a href="organization.php">
-                <div class="image-wrapper">
-                    <img class="img-fluid" src="./assets/Cnag.jpg" alt="First Featured Photo">
-                    <div class="overlay">
-                        <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
-                    </div>
+    <section class="featured_carousel"> 
+        <div class="featured_container">
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Cnag.jpg">
+                <div class="overlay">
+                    <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
                 </div>
-            </a>
-        </div>
-        <div class="col-md-4 mx-2 mb-3 img-container">
-            <!-- Column 2 -->
-            <a href="organization.php">
-                <div class="image-wrapper">
-                    <img class="img-fluid" src="./assets/Tgs.jpg" alt="Second Featured Photo">
-                    <div class="overlay">
-                        <p class="overlay-text"> UST Thomasian Gaming Society</p>
-                    </div>
+            </div>
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Comelec.jpg">
+
+                <div class="overlay">
+                    <p class="overlay-text">UST ICS Comission on Electronics</p>
                 </div>
-            </a>
-        </div>
-        <div class="col-md-4 mb-2 mb-3 img-container">
-            <!-- Column 3 -->
-            <a href="organization.php">
-                <div class="image-wrapper">
-                    <img class="img-fluid" src="./assets/Site.jpg" alt="Third Featured Photo">
-                    <div class="overlay">
-                        <p class="overlay-text">UST Society of Information Technology Enthusiasts</p>
-                    </div>
+            </div>
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Css.jpg">
+
+                <div class="overlay">
+                    <p class="overlay-text">UST Computer Science Society</p>
                 </div>
-            </a>
+            </div>
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Iss.jpg">
+
+                <div class="overlay">
+                    <p class="overlay-text">UST - Information Systems Society</p>
+                </div>
+            </div>
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Pax.jpg">
+                <div class="overlay">
+                    <p class="overlay-text">UST Pax Romana - ICS Unit</p>
+                </div>
+            </div>
+
+            <div class="featured_item">
+                <img class=" carousel_image" src="./assets/Site.jpg">
+                <div class="overlay">
+                    <p class="overlay-text">UST SITE - CICS: Society of Information Technology Enthusiasts</p>
+                </div>
+            </div>
+
+            <div class="featured_item">
+                <img class="carousel_image" src="./assets/Tgs.jpg">
+                <div class="overlay">
+                    <p class="overlay-text">UST Thomasian Gaming Society</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+    </section>
+
+   
 
     <br>
 
@@ -124,13 +195,13 @@
     <div class="container-fluid text-center">
         <div class="row">
             <div class="col-md-6">
-            <h1 class="featuredText"><br><br>Vision</h1>
-            <p>The Institute of Information and Computing Sciences envisions itself as a premier and innovative institution in Information Technology Education and research in the Asia-Pacific Region.</p>
-        </div>
-        <div class="col-md-6">
-            <h1 class="featuredText"><br><br>Mission</h1>
-            <p>The Institute of Information and Computing Sciences of the University of Santo Tomas, under the inspiration of its model, Saint Thomas Aquinas, and its patron, Saint Vincent Ferrer, declares its commitment to the pursuit of truth and the formation of technically competent ITE professionals endowed with a strong commitment to lifelong learning, social responsibility and a desire for leadership in the spirit of service in their respective fields of specialization.</p>
-        </div>
+                <h1 class="featuredText"><br><br>Vision</h1>
+                <p>The Institute of Information and Computing Sciences envisions itself as a premier and innovative institution in Information Technology Education and research in the Asia-Pacific Region.</p>
+            </div>
+            <div class="col-md-6">
+                <h1 class="featuredText"><br><br>Mission</h1>
+                <p>The Institute of Information and Computing Sciences of the University of Santo Tomas, under the inspiration of its model, Saint Thomas Aquinas, and its patron, Saint Vincent Ferrer, declares its commitment to the pursuit of truth and the formation of technically competent ITE professionals endowed with a strong commitment to lifelong learning, social responsibility and a desire for leadership in the spirit of service in their respective fields of specialization.</p>
+            </div>
         </div>
     </div>
 
