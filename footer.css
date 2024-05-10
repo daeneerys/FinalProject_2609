@@ -1,0 +1,135 @@
+
+.smallestText {
+    font: 400 15px/17px Inter, sans-serif !important;
+    margin-top: 13px;
+}
+
+.up-footer {
+    min-height: 300px; 
+    background-color: #F8F0C6;
+    color: #000000;
+    margin-top: 0px !important;
+    padding-top: 20px;
+}
+
+.down-footer {
+    background-color: #510400;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.col-md-2 {
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px !important;
+}
+
+.col-md-4 {
+    margin-right: -60px;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 158px;
+    height: 217px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    margin-right: 100px;
+}
+
+.col-sm-2 {
+    gap: 10px;
+}
+
+.icon_reach {
+    margin-top: 5px;
+    width: 33px;
+    height: 30px;
+    margin-right: 10px;
+ 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.cicsFooter {
+    font: 800 22px/25px Inter, sans-serif;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.footerTopText {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footerSubText {
+    color: #000000;
+    font: 400 15px/0px Inter, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+
+.text-start {
+    margin: 3px 0 0 0;
+}
+
+.blackFooterText {
+    margin-bottom: 5px !important;
+    font: 500 16px/0.5px Montserrat, sans-serif;
+}
+
+a .fa{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* hover */
+
+.footerSubText:hover {
+    color: #510400; 
+}
+
+.fa:hover {
+    color: #007bff; 
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
