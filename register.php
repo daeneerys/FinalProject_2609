@@ -2,8 +2,11 @@
 include("header.php");
 include("connection.php");
 
+if(isset($_POST['submit'])) {
 
-
+    header("Location: reg_successful.php");
+    exit(); 
+}
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +55,7 @@ include("connection.php");
 </script>
 
 <html lang="en">
-       
+
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/bb.ico">
 </head>
@@ -69,21 +72,20 @@ include("connection.php");
 
 </head>
 
-        
-<body>
-     <br><br><br><br><br><br><br><br>
 
+<body>
+<br><br><br><br><br><br><br><br>
     <!--Form Container-->
     <div class="container-md">
         <h3 class="regtext text-start">Account Registration</h3>
 
         <!-- Form -->
-        <form method="post" action="/reg_process.php" id="register" novalidate>
+        <form method="post" action="./reg_process.php" id="register" novalidate>
 
             <div class="row">
                 <div class="">
-                    <p class="form_title" for="studentid">Student ID: </p><br>
-                    <input class="formField" type="text" id="studentid" name="studentid" placeholder="Enter Your Student ID" required>
+                    <p class="form_title" for="studentid">Student Id: </p><br>
+                    <input class="formField" type="text" id="studentid" name="studentid" placeholder="Enter Your Student Id" required>
                     <p class="form_title" for="firstname">First Name: </p><br>
                     <input class="formField" type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required>
                     <br>
@@ -153,6 +155,7 @@ include("connection.php");
             </div>
 
             <button class="submitButton" type="submit" name="submit">Register</button>
+        </form>
         </form>
     </div>
     </div>
