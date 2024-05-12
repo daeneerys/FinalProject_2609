@@ -17,12 +17,12 @@
 
 .box {
     flex: 1;
-    padding: 40px; 
-    border-radius: 50px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    border-radius: 30px; 
+    margin-bottom: 30px; 
+    margin-right: 60px; 
     margin-left: 60px;
-    margin-right: 60px;
-    background-color: #F8F0C6; /* Add a background color */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .rowtext {
     font-family: Inter, sans-serif;
@@ -55,6 +55,30 @@
      margin-top: 10px !important;
 }
 
+.featuredTextdeg {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #950014;
+    line-height: 1;
+     margin-top: 10px !important;
+}
+
 .hidden {
     display: none;
+}
+
+.box li {
+    font-weight: normal;
+}
+
+.col-md-5 {
+    margin-right: 5dvw;
+}
+
+.botbox {
+    flex: 1;
+    padding: 20px; 
+    border-radius: 30px; 
+    margin: auto;
 }
