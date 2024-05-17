@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 .main_container {
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   display: flex;
   width: auto;
@@ -13,10 +13,10 @@ html {
   flex-wrap: nowrap;
 }
 .row_organization {
-  justify-content: center;
+  justify-content: flex-end;
   display: flex;
   width: auto;
-  margin-left: 45px;
+  margin-right: 45px;
 }
 .card {
   width: 360px;
@@ -29,11 +29,12 @@ html {
   text-align: center !important;
   margin-top: 30px;
   -webkit-transition: 1000ms all;
+  
 }
 .col {
   float: left;
-  margin-left: 60px !important;
-  margin-right: -100px;
+  margin-left: 60px;
+  margin-right: 200px;
   display: flex;
   flex: 0 1 200px;
 }
