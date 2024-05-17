@@ -16,11 +16,11 @@
     <style>
         body {
             padding-top: 0px; 
-            background-color: #9e1616; /* Matte red background */
+            background-color: white; 
             color: white; 
         }
         .container {
-            margin-top: 20px; 
+            margin-top: 0px; 
         }
         .navbar-nav {
             margin-left: auto; 
@@ -38,23 +38,22 @@
 <body>
     <!-- Main Navigation -->
     <nav id="main-navbar" class="navbar navbar-expand-sm box-shadow bg-light grey-background">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: lightgrey">
             <a class="navbar-brand" href="https://www.ust.edu.ph/" target="_blank">
-                <img src="assets\R.png" alt="Logo 1">
+            <img src="assets\R.png" alt="Logo 1">
             </a>
             <a class="navbar-brand" href="https://www.ust.edu.ph/information-and-computing-sciences/" target="_blank">
-                <img src="assets\UST-CICS.png" alt="Logo 2">
+            <img src="assets\UST-CICS.png" alt="Logo 2">
             </a>
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="dashboard.php">Dashboard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="adlogout.php">Logout</a>
-                    
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard.php">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adlogout.php">Logout</a>
+            </li>
             </ul>
-        </div>
+    </div>
     </nav>
 </body>
 </html>

@@ -52,7 +52,7 @@ include("connection.php");
 </script>
 
 <html lang="en">
-
+       
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/bb.ico">
 </head>
@@ -69,8 +69,9 @@ include("connection.php");
 
 </head>
 
-
+        
 <body>
+     <br><br><br><br><br><br><br><br>
 
     <!--Form Container-->
     <div class="container-md">
@@ -81,8 +82,8 @@ include("connection.php");
 
             <div class="row">
                 <div class="">
-                    <p class="form_title" for="studentid">Student Id: </p><br>
-                    <input class="formField" type="text" id="studentid" name="studentid" placeholder="Enter Your Student Id" required>
+                    <p class="form_title" for="studentid">Student ID: </p><br>
+                    <input class="formField" type="text" id="studentid" name="studentid" placeholder="Enter Your Student ID" required>
                     <p class="form_title" for="firstname">First Name: </p><br>
                     <input class="formField" type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required>
                     <br>

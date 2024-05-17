@@ -48,24 +48,23 @@ $studentid = $_SESSION['studentid'];
                 </div>
 
             </div>
+
             <ul class="social-icons">
                 <li><a href="#"><i class="fa fa-git"></i></a></li>
                 <li><a href="#"><i class="fa fa-google"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="#"><i class="fa fa-book"></i></a></li>
             </ul>
-            <button class="btn draw-border">Profile Details</button>
-            <button class="btn draw-border">Status</button>
         </div>
 
         <div class="profile_child_container">
             <ul class="responsive-table">
                 <li class="table-header">
-                    <div class="col col-1">Application Id</div>
-                    <div class="col col-2">Organization Name</div>
-                    <div class="col col-3">Division</div>
-                    <div class = "col col-4">Position</div>
-                    <div class="col col-4">Application Status</div>
+                    <div class="table-header">Application Id</div>
+                    <div class="table-header">Organization Name</div>
+                    <div class="table-header">Division</div>
+                    <div class="table-header">Position</div>
+                    <div class="table-header">Application Status</div>
                 </li>
                 
                     <?php

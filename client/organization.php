@@ -67,7 +67,7 @@
         "The UST ICS COMELEC is a governing body that promotes honest and clean election-related matters in the Institute of Information and Computing Sciences.",
         "The UST Computer Science Society (UST-CSS) is the mother and academic organization of the department of computer science of UST-CICS.",
         "An academic organization for students taking up Information Systems in the University of Santo Tomas. ISS is dedicated in the dissemination of knowledge and enhancing the talents of its members.",
-        "The UST PAX ROMANA is a religous organization.",
+        "The UST Pax Romana is a dynamic partner of the College of Information and Computing Sciences in the evangelizing mission of the Catholic Church through the promotion of peace and unity.",
         "UST SITE - CICS: Society of Information Technology Enthusiasts is the mother organization of the IT students of the University of Santo Tomas.",
         "TGS is an Organization focused on the Gaming Community of the University of Santo Tomas.",
     ];
@@ -120,8 +120,11 @@
 
 
             <?php endforeach; ?>
-
-
+ 
+            <div class="col col-md-4">
+                <div >
+                </div>
+            </div>
 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -173,7 +176,7 @@
                                     </label>
 
                                 </fieldset>
-
+                                
                                 <div name="Presidential & Community Development Community" id="presidential">
                                     <fieldset>
                                         <label for="position" class="pos_label"> Position:</label>
@@ -285,15 +288,21 @@
                                             <option value="Evaluation Committee">Internal Relations Committee</option>
                                             <option value="Exectuive Coordinator to the Chief of Staff">Exectuive Coordinator to the Chief of Staff</option>
                                             <option value="Head of Grievances and Peace">Head of Grievances and Peace</option>
+                                            <option value="Exectuive Coordinator to the Chief of Staff">Exectuive Coordinator to the Chief of Staff</option>
+                                            <option value="Head of Grievances and Peace">Head of Grievances and Peace</option>
                                             <option value="Head of Talents">Head of Talents</option>
                                             <option value="Head of Evaluations">Head of Evaluations</option>
                                         </select>
 
                                     </fieldset>
                                 </div>
-                                <div class="cvFile"></label>
-                                    <label class="cFile" for="cvFile">Upload your CV:</label>
-                                    <input type="File" name="file">
+
+                                <br>
+
+                                <div class="cvFile">
+                                    <label for="cvFile">Upload your CV (.PDF File only):
+                                        <input type="file" name="file" accept=".pdf">
+                                    </label>
                                 </div>
                             </div>
                             <div class="modal-footer" id='poot'>

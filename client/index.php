@@ -1,4 +1,4 @@
-<?php include_once('header.php');
+<?php include_once ('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,198 +12,128 @@
     <link rel="stylesheet" href="css/index.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="index.js" defer></script>
 
-</head>
+</head> 
 
 <body>
+
+
     <!--carousel fade -->
-    <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/CICSWEEK1.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/CICSWEEK2.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/CICSWEEK3.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/CICSWEEK4.JPG" class="d-block w-100" alt="...">
-            </div>
+<div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/CICSWEEK1.JPG" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
-
-    <!-- red container -->
-    <div class="container-fluid redcontainer">
-        <!-- 4 containers -->
-        <div class="row">
-            <div class="col-md-3 mx-5 mb-3">
-                <!-- Column 1 -->
-                <br><img src="./assets/stat1.png" class="img-fluid uniform-img" alt="...">
-            </div>
-            <div class="col-md-3 mx-5 mb-3">
-                <!-- Column 2 -->
-                <br><img src="./assets/stat2.png" class="img-fluid uniform-img" alt="...">
-            </div>
-            <div class="col-md-3 mx-5 mb-3">
-                <!-- Column 3 -->
-                <br><img src="./assets/stat3.png" class="img-fluid uniform-img" alt="...">
-            </div>
-            <div class="col-md-3 mx-5 mb-3">
-                <!-- Column 4 -->
-                <br><img src="./assets/stat4.png" class="img-fluid uniform-img" alt="...">
-            </div>
+        <div class="carousel-item">
+            <img src="./assets/CICSWEEK2.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/CICSWEEK3.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/CICSWEEK4.JPG" class="d-block w-100" alt="...">
         </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 
 
-    <!--<div class="container-fluid text-center">
+<!-- red container -->
+<div class="redcontainer">
+    <!-- 4 containers -->
+    <div class="row">
+        <div class="col-md-3 mx-5 mb-3">
+            <!-- Column 1 -->
+            <br><img src="./assets/stat1.png" class="img-fluid uniform-img" alt="...">
+        </div>
+        <div class="col-md-3 mx-5 mb-3">
+            <!-- Column 2 -->
+            <br><img src="./assets/stat2.png" class="img-fluid uniform-img" alt="...">
+        </div>
+        <div class="col-md-3 mx-5 mb-3">
+            <!-- Column 3 -->
+            <br><img src="./assets/stat3.png" class="img-fluid uniform-img" alt="...">
+        </div>
+        <div class="col-md-3 mx-5 mb-3">
+            <!-- Column 4 -->
+            <br><img src="./assets/stat4.png" class="img-fluid uniform-img" alt="...">
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid text-center">
         <div class="row">
             <div class="col-md-3 mx-5 mb-3"></div>
             <h1 class="featuredText"><br><br>Featured Organizations</h1>
             <p class="featuredsubtext">Explore the CICS thriving community – providing students with opportunities<br> to develop leadership skills, cultivate interests, and connect with like-minded peers<br><br></p>
         </div>
-    </div> -->
+    </div>
 
     <!-- Featured Organizations Pictures-->
-    <!--<div class="container-md text-center" id='featured'>
-        <div class="row">
-            <div class="col-md-4 mx-2 mb-3 img-container">
-                
-                <a href="organization.php">
-                    <div class="image-wrapper">
-                        <img class="img-fluid" src="./assets/Cnag.jpg" alt="First Featured Photo">
-                        <div class="overlay">
-                            <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
-                        </div>
+    <div class="container-md text-center" id='featured'>
+    <div class="row">
+        <div class="col-md-4 mx-3 mb-3 img-container">
+            <!-- Column 1 -->
+            <a href="organization.php">
+                <div class="image-wrapper">
+                    <img class="img-fluid" src="./assets/Cnag.jpg" alt="First Featured Photo">
+                    <div class="overlay">
+                        <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-4 mx-2 mb-3 img-container">
-                
-                <a href="organization.php">
-                    <div class="image-wrapper">
-                        <img class="img-fluid" src="./assets/Tgs.jpg" alt="Second Featured Photo">
-                        <div class="overlay">
-                            <p class="overlay-text"> UST Thomasian Gaming Society</p>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mx-2 mb-3 img-container">
+            <!-- Column 2 -->
+            <a href="organization.php">
+                <div class="image-wrapper">
+                    <img class="img-fluid" src="./assets/Tgs.jpg" alt="Second Featured Photo">
+                    <div class="overlay">
+                        <p class="overlay-text"> UST Thomasian Gaming Society</p>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-4 mb-2 mb-3 img-container">
-                
-                <a href="organization.php">
-                    <div class="image-wrapper">
-                        <img class="img-fluid" src="./assets/Site.jpg" alt="Third Featured Photo">
-                        <div class="overlay">
-                            <p class="overlay-text">UST Society of Information Technology Enthusiasts</p>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mb-2 mb-3 img-container">
+            <!-- Column 3 -->
+            <a href="organization.php">
+                <div class="image-wrapper">
+                    <img class="img-fluid" src="./assets/Site.jpg" alt="Third Featured Photo">
+                    <div class="overlay">
+                        <p class="overlay-text">UST Society of Information Technology Enthusiasts</p>
                     </div>
-                </a>
-            </div>
-        </div> -->
-
-    </div>
-
-
-
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-md-3 mx-5 mb-3"></div>
-            <h1 class="featuredText"><br><br>Featured Organizations</h1>
-            <p class="featuredsubtext">Explore the CICS thriving community – providing students with opportunities<br> to develop leadership skills, cultivate interests, and connect with like-minded peers<br><br></p>
+                </div>
+            </a>
         </div>
     </div>
+</div>
 
-    <section class="featured_carousel"> 
-        <div class="featured_container">
 
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Cnag.jpg">
-                <div class="overlay">
-                    <p class="overlay-text">UST Cisco Networking Academy Gateway - CICS Unit</p>
-                </div>
-            </div>
+      <HR class="redline"></HR>
+    
+    <br><br>
+<!-- Button -->
+<div class="container text-center featuredText">Ready to become part of the CICS Family?
+    <br><br>
+    <p class="featuredsubtext">Embark on an exciting journey today by joining one of our dynamic organizations! Explore the diverse array of opportunities awaiting you, ranging from leadership roles that foster initiative and innovation to engaging in skill-building activities that enhance your expertise. Immerse yourself in our vibrant community, where collaboration thrives and connections flourish. Whether you're passionate about technology, entrepreneurship, community service, or beyond, there's a place for you here. Take the first step towards personal and professional growth with us, and together, let's shape the future of CICS!</p>
+    
+    <?php if ($loggedIn): ?>
+        <a href="organization.php" class="btn btn-primary btn-lg" style="background-color: #950014; border-color: #000000; padding: 10px 80px; font-size: 2rem;">Apply Now!</a>
+    <?php else: ?>
+        <a href="login.php" class="btn btn-primary btn-lg" style="background-color: #950014; border-color: #000000; padding: 10px 80px; font-size: 2rem;">Apply Now!</a>
+    <?php endif; ?>
+</div>
 
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Comelec.jpg">
-
-                <div class="overlay">
-                    <p class="overlay-text">UST ICS Comission on Electronics</p>
-                </div>
-            </div>
-
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Css.jpg">
-
-                <div class="overlay">
-                    <p class="overlay-text">UST Computer Science Society</p>
-                </div>
-            </div>
-
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Iss.jpg">
-
-                <div class="overlay">
-                    <p class="overlay-text">UST - Information Systems Society</p>
-                </div>
-            </div>
-
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Pax.jpg">
-                <div class="overlay">
-                    <p class="overlay-text">UST Pax Romana - ICS Unit</p>
-                </div>
-            </div>
-
-            <div class="featured_item">
-                <img class=" carousel_image" src="./assets/Site.jpg">
-                <div class="overlay">
-                    <p class="overlay-text">UST SITE - CICS: Society of Information Technology Enthusiasts</p>
-                </div>
-            </div>
-
-            <div class="featured_item">
-                <img class="carousel_image" src="./assets/Tgs.jpg">
-                <div class="overlay">
-                    <p class="overlay-text">UST Thomasian Gaming Society</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-   
-
-    <br>
-
-    <!--Mission & Vision -->
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="featuredText"><br><br>Vision</h1>
-                <p>The Institute of Information and Computing Sciences envisions itself as a premier and innovative institution in Information Technology Education and research in the Asia-Pacific Region.</p>
-            </div>
-            <div class="col-md-6">
-                <h1 class="featuredText"><br><br>Mission</h1>
-                <p>The Institute of Information and Computing Sciences of the University of Santo Tomas, under the inspiration of its model, Saint Thomas Aquinas, and its patron, Saint Vincent Ferrer, declares its commitment to the pursuit of truth and the formation of technically competent ITE professionals endowed with a strong commitment to lifelong learning, social responsibility and a desire for leadership in the spirit of service in their respective fields of specialization.</p>
-            </div>
-        </div>
-    </div>
 
     <!--Location -->
 
@@ -221,6 +151,7 @@
     </div>
     </div>
     <?php include_once 'footer.php'; ?>
+
 </body>
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

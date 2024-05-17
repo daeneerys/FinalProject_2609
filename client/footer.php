@@ -33,13 +33,13 @@
                 <!-- Column 3 -->
                 <br>
                 <h4 class="footerTopText text-start">Organizations</h4>
-                <p class="text-start"><a class="footerSubText" href="courses.php">CNAG - CICS</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">COMELEC - CICS</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">Computer Science Society</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">Information Systems Society</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">Pax Romana - CICS</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">SITE - CICS</a></p>
-                <p class="text-start"><a class="footerSubText" href="courses.php">The Thomasian Gaming Society</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">CNAG - CICS</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">COMELEC - CICS</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">Computer Science Society</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">Information Systems Society</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">Pax Romana - CICS</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">SITE - CICS</a></p>
+                <p class="text-start"><a class="footerSubText" href="organization.php">The Thomasian Gaming Society</a></p>
             </div>
             <div class="col-md-4 mb-1 ms-5">
                 <!-- Column 4 -->

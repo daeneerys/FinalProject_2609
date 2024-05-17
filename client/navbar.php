@@ -59,10 +59,13 @@
                 <div class="collapse navbar-collapse  container_links  d-sm-inline-flex justify-content-between" id="navbarNavAltMarkup">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
                         <li class="nav-item">
-                            <a class="link nav-link active" href="index.php">HOME</a>
+                            <a class="link nav-link" href="index.php">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="link nav-link" href="organization.php">ORGANIZATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link nav-link" href="about.php">ABOUT</a>
                         </li>
                         <?php if($loggedIn){ ?>
                             <li class = "nav-item"> 
