@@ -72,6 +72,8 @@ $conn->query($updateCountsQuery);
     <style>
         body {
             background-color: whitesmoke;
+            font-family: Montserrat, sans-serif;
+            margin: auto;
         }
 
         .grey-background {
@@ -93,7 +95,7 @@ $conn->query($updateCountsQuery);
             display: inline-block;
             width: 30%;
             margin: 0 1%;
-            padding: 20px;
+            padding: 30px;
             border: 1px solid #ddd;
             border-radius: 5px;
             text-align: center;
@@ -110,7 +112,7 @@ $conn->query($updateCountsQuery);
         .icon {
             width: 50px;
             height: 50px;
-            margin-right: 30px;
+            margin-right: 35px;
         }
 
         .summary-text {
@@ -139,7 +141,7 @@ $conn->query($updateCountsQuery);
 
         th,
         td {
-            padding: 8px;
+            padding: 20px;
             text-align: left;
             border-bottom: 1px solid #ddd;
             border-right: 1px solid #ddd; 
@@ -151,7 +153,7 @@ $conn->query($updateCountsQuery);
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #f2f2ff;
             border-top: 1px solid #ddd; 
         }
         /* act bttons */
